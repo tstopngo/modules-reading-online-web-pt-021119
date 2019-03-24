@@ -5,6 +5,10 @@ class Kid
   
   include Dance
   
-  att
+  attr_accessor :name
+ 
+  def initialize(name)
+    @name = name
+  end
 
 end
